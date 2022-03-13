@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Online Code Editör</title>
+    <link rel="stylesheet" href="styles/main.scss">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <h1>Online Code Editör</h1>
+    <div id="app">
+        <div class="buttons">
+            <button id="saveBtn">Save</button>
+        </div>
+        <iframe id="code"></iframe>
+        <div class="buttons">
+            <button id="miniBtn">Minimize</button>
+            <button id="runBtn">Run</button>
+        </div>
+        <div class="textarea-code">
+            <textarea id="js" placeholder="JavaScript"></textarea>
+            <textarea id="html" placeholder="HTML"></textarea>
+            <textarea id="css" placeholder="CSS"></textarea>
+        </div>
+    </div>
+    <script src="scripts/editor.js"></script>
+</body>
+
+</html>
